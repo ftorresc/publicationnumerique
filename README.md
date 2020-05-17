@@ -10,6 +10,8 @@ With a popular, cross-platform game like Tekken, it was necessary to find a nota
 
 ![Tekken notation](https://criticalpunchcom.files.wordpress.com/2019/02/download.png)
 
+## How to use?
+Simply download the project and open "index.html" with your browser.
 
 ## What is the point of this project?
 This project aims to provide an easily searchable list of moves for characters in Tekken 7. The value of this project comes from the integrated search function that allows the player to search and filter moves by direction (f,d,b,u or any combination of these) or button (1,2,3,4 or any combination of these), a task that is not easily done by the in-browser search function of other websites. This is especially useful in situations where, for example, you are looking for a move initiated while moving forward. By typing "f" in the search function you will see a list of all moves initiated that way and will be able to choose the move that best fits your frame advantage or strategy.
