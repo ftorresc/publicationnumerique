@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script_basic.js"></script>
+</head>
+
+<body>
+    <a href='..\index.html' class="button">Go back</a>
+    <br>
+    <br>
+    <h2>JIN - BASIC MOVES</h2>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for moves..">
+    <table id="basic" cellpadding="0" cellspacing="0">
+        <thead>
+            <tr class="header">
+                <th>Command</th>
+                <th>Hit level</th>
+                <th>Damage</th>
+                <th>Start up frame</th>
+                <th>Block frame</th>
+                <th>Hit frame</th>
+                <th>Counter hit frame</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>h</td>
+                <td>7</td>
+                <td>10</td>
+                <td>+1</td>
+                <td>+8</td>
+                <td>+8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>h</td>
+                <td>9</td>
+                <td>10</td>
+                <td>0</td>
+                <td>+9</td>
+                <td>+9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>h</td>
+                <td>19</td>
+                <td>14</td>
+                <td>-7</td>
+                <td>+4</td>
+                <td>+4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>h</td>
+                <td>18</td>
+                <td>13~14</td>
+                <td>-9~-8</td>
+                <td>+16~+17kg</td>
+                <td>KND</td>
+                <td>Homing, Tail spin</td>
+            </tr>
+            <tr>
+                <td>f+1</td>
+                <td>h</td>
+                <td>7</td>
+                <td>10</td>
+                <td>+1</td>
+                <td>+8</td>
+                <td>+8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f+2</td>
+                <td>h</td>
+                <td>12</td>
+                <td>16~17</td>
+                <td>-5~-4</td>
+                <td>+4~+5</td>
+                <td>+4~+5</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f+3</td>
+                <td>m</td>
+                <td>16</td>
+                <td>12</td>
+                <td>-8</td>
+                <td>+3</td>
+                <td>+3</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>f+4</td>
+                <td>m</td>
+                <td>21</td>
+                <td>16~17</td>
+                <td>-8~-7</td>
+                <td>+4~+5</td>
+                <td>KND</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d/f+1</td>
+                <td>m</td>
+                <td>10</td>
+                <td>13~14</td>
+                <td>-3~-2</td>
+                <td>+4~+5</td>
+                <td>+6~+7</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d/f+2</td>
+                <td>m</td>
+                <td>15</td>
+                <td>15~16</td>
+                <td>-7~-6</td>
+                <td>+4~+5a</td>
+                <td>Launch (JG?)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d/f+3</td>
+                <td>m</td>
+                <td>12</td>
+                <td>14</td>
+                <td>-16</td>
+                <td>-5</td>
+                <td>-5</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d/f+4</td>
+                <td>m</td>
+                <td>22</td>
+                <td>20~21</td>
+                <td>-3~-2</td>
+                <td>+8~+9s</td>
+                <td>KND</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d+1</td>
+                <td>m</td>
+                <td>24</td>
+                <td>21</td>
+                <td>-7</td>
+                <td>KND</td>
+                <td>KND</td>
+                <td>Wall bounce</td>
+            </tr>
+            <tr>
+                <td>d+2</td>
+                <td>Sm (TC)</td>
+                <td>8</td>
+                <td>11s cs4~</td>
+                <td>-4</td>
+                <td>+7</td>
+                <td>+7</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d+3</td>
+                <td>l</td>
+                <td>7</td>
+                <td>15~16</td>
+                <td>-13~-12</td>
+                <td>-2~-1</td>
+                <td>-2~-1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d+4</td>
+                <td>l (TC)</td>
+                <td>13</td>
+                <td>16~17 cs6~</td>
+                <td>-12~-11</td>
+                <td>-1~0</td>
+                <td>-1~0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d/b+1</td>
+                <td>Sm (TC)</td>
+                <td>5</td>
+                <td>10s cs4~</td>
+                <td>-5</td>
+                <td>+6</td>
+                <td>+6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d/b+2</td>
+                <td>m</td>
+                <td>12</td>
+                <td>16</td>
+                <td>-10</td>
+                <td>-4</td>
+                <td>FS(+3) 16</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>d/b+3</td>
+                <td>h (TC)</td>
+                <td>28</td>
+                <td>19~21 cs4~</td>
+                <td>-13~-11</td>
+                <td>KND</td>
+                <td>KND</td>
+                <td>Tail spin</td>
+            </tr>
+            <tr>
+                <td>d/b+4</td>
+                <td>l</td>
+                <td>18</td>
+                <td>20~21</td>
+                <td>-13~-12</td>
+                <td>+3~+4</td>
+                <td>KND</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b+1 (to CDS)</td>
+                <td>(Special) (TC)(CDS)</td>
+                <td></td>
+                <td>20~21</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b+2</td>
+                <td>m</td>
+                <td>12</td>
+                <td>15~16</td>
+                <td>-11~-10</td>
+                <td>0~+1</td>
+                <td>0~+1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b+3</td>
+                <td>m</td>
+                <td>17</td>
+                <td>16</td>
+                <td>-6</td>
+                <td>+5</td>
+                <td>CS</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>b+4</td>
+                <td>m</td>
+                <td>21</td>
+                <td>17~18</td>
+                <td>-7~-6</td>
+                <td>KND</td>
+                <td>KND</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u/b or u or u/f+1</td>
+                <td>m (TJ)</td>
+                <td>12</td>
+                <td>18 js9~</td>
+                <td>-8</td>
+                <td>+3</td>
+                <td>+3</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u/b or u+2</td>
+                <td>h</td>
+                <td>17</td>
+                <td>15~16</td>
+                <td>-12~-11</td>
+                <td>+9~+10g</td>
+                <td>+9~+10g</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u/f+2</td>
+                <td>m</td>
+                <td>18</td>
+                <td>15~16</td>
+                <td>-7~-6</td>
+                <td>+6~+7</td>
+                <td>KND</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u/b+3</td>
+                <td>m (TJ)</td>
+                <td>13</td>
+                <td>22~23 js9~</td>
+                <td>-11~-10</td>
+                <td>+4~+5</td>
+                <td>CS</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u or u/f+3</td>
+                <td>m (TJ)</td>
+                <td>17</td>
+                <td>22~23 js9~</td>
+                <td>-9~-8</td>
+                <td>+6~+7</td>
+                <td>CS (10~+11)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u/b+4</td>
+                <td>m (TJ)</td>
+                <td>11</td>
+                <td>15~17 js9~</td>
+                <td>-20~-18</td>
+                <td>-8~-6</td>
+                <td>-8~-6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u+4</td>
+                <td>m (TJ)</td>
+                <td>15</td>
+                <td>15~17 js9~</td>
+                <td>-13~-11</td>
+                <td>KND</td>
+                <td>Launch (JG?)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u/f+4</td>
+                <td>m (TJ)</td>
+                <td>13</td>
+                <td>15~17 js9~</td>
+                <td>-13~-11</td>
+                <td>Launch (JG?)</td>
+                <td>Launch (JG?)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>u/f, n+4</td>
+                <td>m</td>
+                <td>25</td>
+                <td>23(29,35) js9~33</td>
+                <td>-11(-13)</td>
+                <td>Launch (JG?)</td>
+                <td>Launch (JG?)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>WS+1</td>
+                <td>m</td>
+                <td>10</td>
+                <td>13~14</td>
+                <td>-6~-5</td>
+                <td>+5~+6</td>
+                <td>+5~+6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>WS+2</td>
+                <td>m</td>
+                <td>14</td>
+                <td>14~15</td>
+                <td>-12~-11</td>
+                <td>Launch (JG?)</td>
+                <td>Launch (JG?)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>WS+3</td>
+                <td>m</td>
+                <td>20</td>
+                <td>16~18</td>
+                <td>-9~-7</td>
+                <td>+10~+12kg</td>
+                <td>Launch</td>
+                <td>Homing, Tail spin</td>
+            </tr>
+            <tr>
+                <td>WS+4</td>
+                <td>m</td>
+                <td>16</td>
+                <td>11~12</td>
+                <td>-3~-2</td>
+                <td>+8~+9</td>
+                <td>+8~+9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>FC+1</td>
+                <td>Sm (TC)</td>
+                <td>5</td>
+                <td>10s cs1~</td>
+                <td>-5</td>
+                <td>+6</td>
+                <td>+6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>FC+2</td>
+                <td>Sm (TC)</td>
+                <td>8</td>
+                <td>11s cs1~</td>
+                <td>-4</td>
+                <td>+7</td>
+                <td>+7</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>FC+3</td>
+                <td>l (TC)</td>
+                <td>12</td>
+                <td>16s cs1~</td>
+                <td>-17</td>
+                <td>-3</td>
+                <td>-3</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>FC+4</td>
+                <td>l (TC)</td>
+                <td>10</td>
+                <td>12s cs1~</td>
+                <td>-15</td>
+                <td>-4</td>
+                <td>-4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SS+1</td>
+                <td>h</td>
+                <td>7</td>
+                <td>10(11~)</td>
+                <td>+1</td>
+                <td>+8</td>
+                <td>+8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SS+2</td>
+                <td>h</td>
+                <td>9</td>
+                <td>10(11~)</td>
+                <td>0</td>
+                <td>+9</td>
+                <td>+9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SS+3</td>
+                <td>h</td>
+                <td>19</td>
+                <td>14(15~)</td>
+                <td>-7</td>
+                <td>+4</td>
+                <td>+4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SS+4</td>
+                <td>h</td>
+                <td>18</td>
+                <td>13~14 (14~)</td>
+                <td>-9~-8</td>
+                <td>+16~+17kg</td>
+                <td>CS</td>
+                <td>Homing, Tail spin</td>
+            </tr>
+            <tr>
+                <td>BT 1 or 2</td>
+                <td>h</td>
+                <td>15</td>
+                <td>8</td>
+                <td>-8</td>
+                <td>+3</td>
+                <td>+3</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>BT 3 or 4</td>
+                <td>h</td>
+                <td>25</td>
+                <td>10</td>
+                <td>-8</td>
+                <td>KND</td>
+                <td>KND</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>BT d+1 or 2</td>
+                <td>Sm</td>
+                <td>10</td>
+                <td>10s cs1~</td>
+                <td>-2</td>
+                <td>+9</td>
+                <td>+9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>BT d+3 or 4</td>
+                <td>l</td>
+                <td>12</td>
+                <td>10s cs1~</td>
+                <td>-11</td>
+                <td>+3</td>
+                <td>+3</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

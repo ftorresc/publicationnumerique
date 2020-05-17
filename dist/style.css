@@ -1,0 +1,354 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #0a0a0a;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.container {
+	width: 100%;
+	height: 500px;
+}
+.wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.box {
+	margin: 10px;
+	width: 300px;
+	height: 490px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.box h1 {
+	color: #fff;
+	padding: 15px;
+	margin-top: 300px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 20px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+
+.text1 {
+	margin-top: 350px;
+
+}
+
+
+.text2 {
+	margin-top: 350px;
+
+}
+
+.text2 a{
+	color: #fff;
+	padding: 15px;
+	margin-top: 300px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 18px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.text1 a{
+	color: #fff;
+	padding: 15px;
+	margin-top: 300px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 20px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+
+.bryan {
+	background: url('./assets/bryan.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+
+.akuma {
+	background: url('./assets/akuma.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.alisa {
+	background: url('./assets/alisa.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+
+.asuka {
+	background: url('./assets/asuka.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.bob {
+	background: url('./assets/bob.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.claudio {
+	background: url('./assets/claudio.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.devil_jin {
+	background: url('./assets/deviljin.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.dragunov {
+	background: url('./assets/dragunov.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.eddy {
+	background: url('./assets/eddy.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.eliza {
+	background: url('./assets/eliza.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.feng {
+	background: url('./assets/feng.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.gigas {
+	background: url('./assets/gigas.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.heihachi {
+	background: url('./assets/heihachi.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.hwoarang {
+	background: url('./assets/hwoarang.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+
+.jack-7 {
+	background: url('./assets/jack7.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.jin {
+	background: url('./assets/jin.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.josie {
+	background: url('./assets/josie.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.katarina {
+	background: url('./assets/katarina.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.kazumi {
+	background: url('./assets/kazumi.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.kazuya {
+	background: url('./assets/kazuya.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.king {
+	background: url('./assets/king.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.kuma {
+	background: url('./assets/kuma.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.lars {
+	background: url('./assets/lars.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.law {
+	background: url('./assets/law.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.lee {
+	background: url('./assets/lee.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.leo {
+	background: url('./assets/leo.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.lili {
+	background: url('./assets/lili.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.lucky_chloe {
+	background: url('./assets/luckychloe.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.miguel {
+	background: url('./assets/miguel.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.nina {
+	background: url('./assets/nina.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+
+.paul {
+	background: url('./assets/paul.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.raven {
+	background: url('./assets/raven.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.shaheen {
+	background: url('./assets/shaheen.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.steve {
+	background: url('./assets/steve.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.xiaoyu {
+	background: url('./assets/xiaoyu.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+.yoshimitsu {
+	background: url('./assets/yoshimitsu.png');
+	background-repeat: no-repeat;
+	background-color: #dedede;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
